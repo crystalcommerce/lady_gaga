@@ -1,5 +1,6 @@
 require 'httparty'
-require 'activesupport'
+require 'active_support'
+require 'active_support/core_ext'
 
 module LadyGaga
   class Request
