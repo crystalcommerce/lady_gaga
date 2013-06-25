@@ -15,9 +15,9 @@ Gem::Specification.new do |s|
   s.rubyforge_project = "lady_gaga"
 
   {
-    'httparty'            => '~> 0.7.7',
+    'httparty'            => '>= 0.7.7',
     'nokogiri'            => '>= 1.4.4',
-    'activesupport'      => '~> 2.3.10'
+    'activesupport'      => '>= 2.3.10'
   }.each {|lib, version| s.add_runtime_dependency lib, version }
 
   {
